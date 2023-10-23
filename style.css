@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nanum+Gothic&display=swap');
+
+
+.avatar {
+  width: 200px
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-image: url("images/342360.jpg");
+  /* background:
+  linear-gradient(45deg, rgb(52, 159, 183) 10%,rgba(253,187,45,0) 70%),
+  linear-gradient(45deg, rgb(165, 202, 202) 10%,rgba(34,193,195,0) 70%),
+  linear-gradient(.35turn, rgb(17, 99, 93) 0%,rgba(252,70,101,0) 70%),
+  linear-gradient(60deg, rgb(182, 221, 211) 0%,rgba(178, 209, 248, 0) 70%); */
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
+  color: #eee5e5;
+}
+
+a {
+  font-family: 'Metal Mania', cursive;
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  border-radius: 10px;
+  border-style: dashed;
+  font-size: 20px;
+}
+
+#title h1 {
+  color: white;
+  -webkit-text-stroke: 0.01px black;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+.card {
+  background:
+  linear-gradient(45deg, rgb(211, 241, 231)0%,rgba(253,187,45,0) 70%),
+  linear-gradient(45deg, rgb(109, 164, 164) 10%,rgba(34,193,195,0) 70%),
+  linear-gradient(.35turn, rgb(45, 56, 54) 0%,rgba(252,70,101,0) 70%),
+  linear-gradient(60deg, rgb(88, 61, 61) 0%,rgba(245, 13, 13, 0) 70%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 24px;
+}
+
+.list-inline i {
+  color: #f7f6ef;
+  cursor: pointer;
+}
+
+.list-inline i:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
